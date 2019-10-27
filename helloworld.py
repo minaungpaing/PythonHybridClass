@@ -1,7 +1,9 @@
-tax = 50/ 100
-price = 15000
-total tax=price * tax
-
-total paid=price + total tax
-
-print(total paid)
+>>> charge = 15000
+>>> tax = 50 / 1000
+>>> totaltax = charge * tax
+>>> totaltax
+750.0
+>>> totalpaid = totaltax + charge
+>>> totalpaid
+15750.0
+>>>
