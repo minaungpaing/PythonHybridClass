@@ -1,7 +1,7 @@
-tax = 12.5 / 100
-price = 100.50
-n=price * tax
+tax = 50/ 100
+price = 15000
+total tax=price * tax
 
-n=price + n
+total paid=price + total tax
 
-print(round(n, 2))
+print(total paid)
