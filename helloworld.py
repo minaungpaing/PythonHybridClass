@@ -1,9 +1,10 @@
->>> charge = 15000
->>> tax = 50 / 1000
+>>> charge = 30000
+>>> tax = 50/1000
 >>> totaltax = charge * tax
 >>> totaltax
-750.0
->>> totalpaid = totaltax + charge
+1500.0
+>>>
+>>> totalpaid = charge + totaltax
 >>> totalpaid
-15750.0
+31500.0
 >>>
