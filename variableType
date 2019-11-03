@@ -1,0 +1,22 @@
+int -> integer
+str -> string
+bool -> true,flase
+float - 0.2,0.5
+
+len() -> length
+
+range(10) 		-> 		0 t0 9!
+range(5,10) 	-> 		5 to 9! 
+range(0,10,3)	->		divisible by 3!
+
+sum(range(4))	-> 		0+1+2+3
+list(range(5))	->		[0,1,2,3,4]
+
+a.append()		-> 		added on the end! 
+a.remove()		->		remove on the end!
+a.reverse()		->		reverse the array!
+a.sort()		->		sort the array!
+a.count()		-> 		number of index!
+a.index()		->		index of array
+
+# 				-> comment (Ctrl + ?)
