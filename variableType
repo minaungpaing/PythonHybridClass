@@ -31,3 +31,54 @@ squares = list(map(lambda x: x**2, range(10)))
 
 >>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
 [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
+
+matrix = [
+	[1,2,3,4],
+	[5,6,7,8],
+	[9,10,11,12],
+]
+
+
+>>> basket = { 'apple', 'orange', 'apple', 'pear' , 'banana'}
+>>> print(basket)
+{'banana', 'orange', 'apple', 'pear'}
+>>> basket.append(orange)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'set' object has no attribute 'append'
+>>> print(basket)
+{'banana', 'orange', 'apple', 'pear'}
+>>> basket = { 'apple', 'orange', 'apple', 'pear','orange' , 'banana'}
+>>> print(basket)
+{'banana', 'orange', 'apple', 'pear'}
+>>> basket = {'banana' ,'apple','cucumber','pineapple', 'orange','grape', 'apple', 'pear','orange' , 'banana'}
+>>> print(basket)
+{'banana', 'orange', 'grape', 'cucumber', 'pineapple', 'pear', 'apple'}
+>>> 'orange' in basket
+True
+>>> 'grass' in basket
+False
+>>>
+
+
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print(basket)                      # show that duplicates have been removed
+
+'orange' in basket                 # fast membership testing
+
+'crabgrass' in basket
+
+
+# Demonstrate set operations on unique letters from two words
+
+a = set('abracadabra')
+b = set('alacazam')
+a                                  # unique letters in a
+
+a - b                              # letters in a but not in b
+
+a | b                              # letters in a or b or both
+
+a & b                              # letters in both a and b
+
+a ^ b                              # letters in a or b but not both
