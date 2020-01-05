@@ -1,0 +1,11 @@
+										Read		Write
+Hard Disk Drive(HDD) 	- 				40MB 	-  	10MB/s
+Solid State Drive(SSD)  - SATA			540MB	-	450MB/s
+						  M.2 Pice -> NGFF  -> 550MB - 480MB/s
+						  			  Nvme  ->3500MB - 3000MB/s
+
+
+Bad Sector in HDD
+
+hard disk sentinal pro - Hard disk sit tae har
+AS SSD benchmark

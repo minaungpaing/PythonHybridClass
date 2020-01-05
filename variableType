@@ -86,3 +86,9 @@ a ^ b                              # letters in a or b but not both
 
 
 for f in sorted(set(basket)):
+
+
+how to pip install   	-> cmd pip install pip  ( python install get-pip.py)BurntSushi/nfldb		
+		-> python get-pip.py
+
+home work(https://numpy.org/devdocs/user/quickstart.html)
